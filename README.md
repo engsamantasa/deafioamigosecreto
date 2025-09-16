@@ -7,10 +7,13 @@
 
 ## Ferramentas utilizadas:
 
-* <img width="88" height="28" alt="image" src="https://github.com/user-attachments/assets/6e05a135-61dc-473d-9dc6-6601e43a99a4" />
-
 
 * <img width="57" height="28" alt="image" src="https://github.com/user-attachments/assets/76aa04d4-1538-4082-ba0d-d549e3555c6b" />
+
+* <img width="88" height="28" alt="image" src="https://github.com/user-attachments/assets/6e05a135-61dc-473d-9dc6-6601e43a99a4" />
+
+* <img width="127" height="28" alt="image" src="https://github.com/user-attachments/assets/1477d10a-8332-4f8e-a779-cd3fbb387a9d" />
+
 
 
 ### Link de acesso: [COLOCAR FUTURO LINK DE ACESSO]
