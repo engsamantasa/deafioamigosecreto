@@ -41,8 +41,6 @@ function adicionarAmigo(){
     renderizarLista();
     limparCampo();
     
-    
-
 }
 
 
@@ -52,17 +50,22 @@ function limparCampo(){
 };
 
 
-
-//Função para escolher um nome escrito dos presentes na lista
 function sortearAmigo() {
     if (listaAmigos.length === 0) {
-     // Mudar algum texto informando que não tem nenhum nome na lista 
-    return null;
-  } else {
-    renderizarLista()
-    return listaAmigos[gerarIndice()];
-  }
-  
+        mostrarMensagem(" Nenhum nome disponível para sortear.");
+        return;
+    }
+
+    // escolhe um índice válido (de 0 até listaAmigos.length - 1)
+    const indice = Math.floor(Math.random() * listaAmigos.length);
+    const sorteado = listaAmigos[indice];
+
+    // mostra o resultado no HTML
+    mostrarMensagem(` O amigo secreto sorteado foi: ${sorteado}`);
+
+    // limpa a lista de amigos
+    listaAmigos = [];
+    renderizarLista();
 }
 
 function gerarIndice(){
