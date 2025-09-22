@@ -62,6 +62,7 @@ function sortearAmigo() {
     renderizarLista();
 }
 
+
 function gerarIndice(){
     let indiceLista = parseInt( Math.random() * listaAmigos.length + 1)
     return indiceLista;
