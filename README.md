@@ -1,7 +1,7 @@
 
 <img width="1000" height="500" alt="Programação-Iniciante em Programação G9 - ONE_ Challenge amigo secreto" src="https://github.com/user-attachments/assets/ff0e4113-1d50-41e4-bc33-6fbeb252cef3" />
 
-# Olá, Bem vindo ao meu projeto de Portfólio.
+# Olá, Bem vindo ao meu repósitório do Challenge amigo secreto.
 
 [COLOCAR FUTURA IMAGEM DO PROJETO]
 
