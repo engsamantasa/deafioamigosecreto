@@ -4,7 +4,7 @@ let listaAmigos = [];
 
 function renderizarLista() {
         let ul = document.querySelector('#listaAmigos');
-        ul.innerHTML = ""; // limpa a lista antes de recriar
+        ul.innerHTML = "";
 
         listaAmigos.forEach(nome => {
             let li = document.createElement('li');
@@ -13,22 +13,20 @@ function renderizarLista() {
         });
     }
 
-    function mostrarMensagem(msg) {
+function mostrarMensagem(msg) {
         let ulResultado = document.querySelector('#resultado');
-        ulResultado.innerHTML = ""; // limpa mensagens anteriores
+        ulResultado.innerHTML = "";
         let li = document.createElement('li');
         li.textContent = msg;
         ulResultado.appendChild(li);
     }
 
-//Função para pegar o nome escrito e colocar  
+
 function adicionarAmigo(){
     let input = document.querySelector('input').value;
-   // let nomeAmigo = input.value.trim();
-
 
     if (input === "") {
-        alert("Por favor, insira um nome.");
+        alert("Por favor, insira um nome válido.");
         return;
     }
 
@@ -56,14 +54,10 @@ function sortearAmigo() {
         return;
     }
 
-    // escolhe um índice válido (de 0 até listaAmigos.length - 1)
+
     const indice = Math.floor(Math.random() * listaAmigos.length);
     const sorteado = listaAmigos[indice];
-
-    // mostra o resultado no HTML
     mostrarMensagem(` O amigo secreto sorteado foi: ${sorteado}`);
-
-    // limpa a lista de amigos
     listaAmigos = [];
     renderizarLista();
 }
